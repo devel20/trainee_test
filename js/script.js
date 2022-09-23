@@ -21,6 +21,9 @@ jQuery(document).ready(function ($) {
     $('.submenu-clothing').toggleClass('active');
   });
 
+    $('.submenu-view').click(function (menu) {
+    $('.submenu-women, .submenu-clothing').removeClass('active');
+  });
 
 
 
