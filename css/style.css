@@ -532,7 +532,9 @@ padding: 362px 0px 270px 0px;
 }
 .footer-inner{
     width: 100%;
-
+}
+.footer-inner.active {
+    display:none;
 }
 .footer-inner:after {
     content: "";

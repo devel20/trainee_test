@@ -2,7 +2,7 @@
 jQuery(document).ready(function ($) {
   $('.menu__icon').click(function (menu) {
 
-    $('.menu__icon, .menu__body, .header__logo').toggleClass('active');
+    $('.menu__icon, .menu__body, .header__logo, .footer-inner').toggleClass('active');
     $('body').toggleClass('lock');
   });
   $('.women').click(function (menu) {
